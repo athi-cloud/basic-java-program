@@ -1,0 +1,27 @@
+class auther{
+     String fname;
+	 String lname;
+	 int age;
+	auther(String firstname,String lastname,int autherage){
+		firstname=fname;
+		lastname=lname;
+		autherage=age;
+	}
+		
+	
+	void print(){
+		System.out.println("fname"+fname);
+		System.out.println("lname"+lname);
+		System.out.println("age"+age);
+	}
+	
+}
+class autherinfo{
+	public static void main(String args[]){
+		auther ob1=new auther("Athi","kamsha",18);
+		auther ob2=new auther("A","K",18);
+		ob1.print();
+		ob2.print();
+		
+	}
+}
